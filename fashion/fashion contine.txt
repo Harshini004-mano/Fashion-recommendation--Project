@@ -1,0 +1,8 @@
+conda activate fashion_recommender
+
+
+cd "C:\Users\harsh\OneDrive\Desktop\fashion"
+
+
+streamlit run fashion_single.py
+

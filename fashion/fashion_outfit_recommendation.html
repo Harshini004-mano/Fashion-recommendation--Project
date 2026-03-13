@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Recommender App</title>
+
+  <style>
+    body {
+      background-color: #f7f9fc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      background-color: #4b0082;
+      color: white;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-bottom: 5px solid #9370db;
+    }
+
+    .container {
+      background: white;
+      width: 50%;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 15px;
+      color: #4b0082;
+    }
+
+    select {
+      width: 80%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 2px solid #9370db;
+      margin-top: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #9370db;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #4b0082;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Fashion Recommender App</h1>
+
+  <div class="container">
+    <label for="temperature">Select Temperature:</label>
+    <select id="temperature">
+      <option>Sunny</option>
+      <option>Rainy</option>
+      <option>Cold</option>
+      <option>Hot</option>
+      <option>Overcast</option>
+    </select>
+
+    <label for="category">Select Category:</label>
+    <select id="category">
+      <option>Men</option>
+      <option>Women</option>
+      <option>Children (Boy)</option>
+      <option>Children (Girl)</option>
+    </select>
+
+    <label for="place">Select Place:</label>
+    <select id="place">
+      <option>Beach</option>
+      <option>Park</option>
+      <option>Restaurant</option>
+      <option>City</option>
+      <option>Mountains</option>
+    </select>
+
+    <label for="companion">Select Going With:</label>
+    <select id="companion">
+      <option>Friends</option>
+      <option>Family</option>
+      <option>Date</option>
+      <option>Solo</option>
+    </select>
+
+    <br><br>
+    <button>Get Outfit Recommendation</button>
+  </div>
+</body>
+</html>
